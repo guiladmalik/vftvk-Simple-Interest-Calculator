@@ -1,4 +1,60 @@
-body {background-color:tan;}
-h1{color:green;}
+body {background-color:rgb(0, 0, 0);font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+h1{color:grey;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+.maindiv {
+    background-color: white;
+    color: black;
+    width: 300px;
+    padding: 20px;
+    border-radius: 25px;
+    margin: auto;
+}
+
+.p {
+    margin-top: 50%;
+    opacity: 0.7;
+    font-size: 12px;
+}
+
+.slidecontainer {
+    width: 75%;
+    margin-top: 200px;
+}
+
+.slidecontainer {
+    width: 75%;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.slider::after{
+    content: '20';
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    left: 55%;
+    top: 90%;
+    position: relative;
+}
+
+.slider::before{
+    content: '1';
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    left: 13%;
+    top: 90%;
+    position: relative;
+}
+
+#amount-button{
+    color: red;
+}
 
 
+
+.slider::-moz-range-thumb {
+    width: 20px;
+    height: 20px;
+    background: rgb(84, 84, 84);
+    border-radius: 50%;
+    cursor: pointer; 
+
+}
